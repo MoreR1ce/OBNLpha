@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <title>Accueil | SOLPHAR</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Organisme, Pharmacie">
+    <meta name="description" content="Organisme sans but lucratif ">
+    <meta name="author" content="Morris Garon">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<header class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">
+        <img src="logo-obnl.png" alt="Logo de l'OBNL">
+      </a>
+     <!-- Icône burger -->
+    <button class="burger" id="burger-toggle" aria-label="Menu">
+        ☰
+      </button>
+  
+      <!-- Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#services">Solutions</a></li>
+          <li><a href="#partenaires">Partenaires</a></li>
+          <li><a href="components/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+<body>
+<!-- HÉROS -->
+<section class="section section-light">
+    <div class="container two-column-layout reveal">
+      <div class="text">
+        <h1>Soutenir les pharmaciens du Québec, un partenariat à la fois.</h1>
+        <p>
+          Un organisme à but non lucratif qui redistribue les contributions de l’industrie pharmaceutique pour soutenir les pharmaciens.
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/images/hero.jpg" alt="Pharmacien au comptoir">
+      </div>
+    </div>
+  </section>
+  
+  <!-- MISSION -->
+  <section id="mission" class="section reveal">
+    <div class="container two-column-layout reverse">
+      <div class="text">
+        <h2>Notre mission</h2>
+        <p id="gras">
+          Nous croyons que les pharmaciens sont un pilier du système de santé. Notre mission est de faciliter leur accès à des ressources, du soutien et des formations grâce au financement de partenaires engagés.
+        </p>
+        <a href="components/mission.html" class="button-primary">En savoir plus</a>
+      </div>
+      <div class="image">
+        <img src="assets/images/mission.png" alt="Mission de l'OBNL en action">
+      </div>
+    </div>
+  </section>
+  
+  <!-- SERVICES -->
+  <section id="services" class="section section-gray reveal">
+    <div class="container two-column-layout">
+      <div class="text">
+        <h2>Solutions offertes aux pharmaciens</h2>
+        <p>
+        <strong>Formations continues</strong>. Accès à des formations cliniques et technologiques à jour.
+        <br>
+        <strong>Ressources pratiques</strong>.  Modèles, fiches outils et guides pour la pratique quotidienne.
+        <br>
+        <strong>Bien-être professionnel</strong>.  Initiatives de soutien à la santé mentale et à la gestion du stress.
+        </p>
+        <a href="#mission" class="button-primary">Explorer nos solutions</a>
+      </div>
+      <div class="image">
+        <img src="assets/images/services.jpg" alt="Ressources pour pharmaciens">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- GRILLE DE PARTENAIRES -->
+  <section class="section reveal" id="partenaires">
+    <div class="container two-column-layout">
+      <div class="image partners-logos">
+        <div class="partners-grid">
+          <img src="logo1.png" alt="Partenaire 1">
+          <img src="logo2.png" alt="Partenaire 2">
+          <img src="logo3.png" alt="Partenaire 3">
+          <img src="logo4.png" alt="Partenaire 4">
+          <img src="logo5.png" alt="Partenaire 5">
+          <img src="logo6.png" alt="Partenaire 6">
+        </div>
+      </div>
+      <div class="text text-right">
+        <h2>Nos partenaires</h2>
+        <p>
+          Ces entreprises soutiennent la profession et permettent à notre organisme d’agir concrètement. Leur engagement nous aide à financer des projets concrets pour les pharmaciens du Québec.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- PIED DE PAGE -->
+  <footer class="footer reveal">
+    <div class="container simple-footer">
+      <p>© 2025 Solphar</p>
+  
+      <nav class="footer-links">
+        <a href="components/contact.html">Contact</a>
+        <a href="#">Politique de confidentialité</a>
+      </nav>
+  
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M22.675 0h-21.35C.595 0 0 .592 0 1.323v21.353C0 23.406.595 24 1.325 24h11.482v-9.294H9.692v-3.622h3.115V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.466.098 2.797.142v3.24l-1.918.001c-1.504 0-1.794.715-1.794 1.763v2.312h3.587l-.467 3.622h-3.12V24h6.116C23.405 24 24 23.406 24 22.676V1.323C24 .592 23.405 0 22.675 0z"/>
+            </svg>
+          </a>          
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3h10zM12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3a3 3 0 1 1 0-6zm4.5-3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+            </svg>
+          </a>
+          
+          
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="js/main.js"></script>
+  <button id="theme-toggle" class="theme-toggle">🌓 Thème</button>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* mission.css */
+
+/* Layout spécifique à la page mission */
+.section {
+    padding: 60px 20px;
+  }
+  
+  .section-light {
+    background-color: var(--color-primary-light);
+  }
+  
+  .section-gray {
+    background-color: var(--color-bg);
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .two-column-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .two-column-layout .text,
+  .two-column-layout .image {
+    flex: 1 1 400px;
+  }
+  
+  .two-column-layout .image img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .two-column-layout {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* Citation animée */
+  .animated-quote {
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.2s ease forwards;
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Bouton de retour */
+  .button-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button-primary:hover {
+    background-color: #2E6CD1;
+  }
+  

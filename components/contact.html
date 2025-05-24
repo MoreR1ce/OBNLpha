@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | SOLPHAR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez l'équipe de SOLPHAR">
+  <link rel="stylesheet" href="../style/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+
+  <!-- NAVBAR (copiée de index.html) -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="../index.html" class="logo">
+        <img src="../assets/images/logo-obnl.png" alt="Logo SOLPHAR">
+      </a>
+      <button class="burger" id="burger-toggle" aria-label="Menu">☰</button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../index.html#mission">Mission</a></li>
+          <li><a href="../index.html#services">Solutions</a></li>
+          <li><a href="../index.html#partenaires">Partenaires</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FORMULAIRE DE CONTACT -->
+  <section class="section reveal">
+    <div class="container">
+      <h1>Contactez-nous</h1>
+      <p>Vous avez une question, une proposition ou un partenariat à offrir? N'hésitez pas à nous écrire.</p>
+      <form action="https://formspree.io/f/ton-code" method="POST" class="contact-form">
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Courriel</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="button-primary">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- PIED DE PAGE -->
+  <footer class="footer">
+    <p>© 2025 SOLPHAR. Tous droits réservés.</p>
+    <a href="#">Politique de confidentialité</a>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
